@@ -1,0 +1,9 @@
+{
+	"name": "samdatafactoryaa",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "47b039e5-5350-4244-839d-a9e0a2e8e8bf",
+		"tenantId": "a2e466aa-4f86-4545-b5b8-97da7c8febf3"
+	}
+}
