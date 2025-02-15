@@ -21,7 +21,7 @@
 					},
 					{
 						"name": "Destination",
-						"value": "architecturedatalake//ROW"
+						"value": "architecturedatalake//ROW.parquet"
 					}
 				],
 				"typeProperties": {
@@ -37,15 +37,12 @@
 						}
 					},
 					"sink": {
-						"type": "DelimitedTextSink",
+						"type": "ParquetSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings",
-							"copyBehavior": "FlattenHierarchy"
+							"type": "AzureBlobStorageWriteSettings"
 						},
 						"formatSettings": {
-							"type": "DelimitedTextWriteSettings",
-							"quoteAllText": true,
-							"fileExtension": ".txt"
+							"type": "ParquetWriteSettings"
 						}
 					},
 					"enableStaging": false,
@@ -66,7 +63,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_6pq",
+						"referenceName": "SourceDataset_6pq",
 						"type": "DatasetReference"
 					}
 				]
