@@ -1,0 +1,12 @@
+{
+	"name": "AzureSynapseArtifacts1",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSynapseArtifacts",
+		"typeProperties": {
+			"endpoint": "https://workspacesam.dev.azuresynapse.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/59b3f2eb-caba-469e-afca-cde678d49c24/resourceGroups/isamil/providers/Microsoft.Synapse/workspaces/workspacesam"
+		}
+	}
+}
