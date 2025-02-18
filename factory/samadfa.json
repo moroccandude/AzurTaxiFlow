@@ -1,0 +1,9 @@
+{
+	"name": "samadfa",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e394936c-fa9d-45e1-b688-a0a51c31fa4e",
+		"tenantId": "a2e466aa-4f86-4545-b5b8-97da7c8febf3"
+	}
+}
